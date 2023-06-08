@@ -1,11 +1,40 @@
 {
   "expo": {
-    "name": "guessnumber",
+    "name": "Guess My Number",
     "slug": "guessnumber",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0d5323d1-450d-4deb-b7ba-f14432fc3ad0"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0d5323d1-450d-4deb-b7ba-f14432fc3ad0"
+    },
+    "android": {},
+    "ios": {}
   },
-  "name": "guessnumber"
+  "name": "guessnumber",
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "ios": {
+    "ios.buildNumber": "1.0.0"
+  },
+  "android": {
+    "android.versionCode": 1
+  }
 }
